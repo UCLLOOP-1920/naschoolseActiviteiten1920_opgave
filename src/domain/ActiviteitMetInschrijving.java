@@ -7,6 +7,7 @@ public class ActiviteitMetInschrijving {
     private List<Persoon> personen;
 
     public ActiviteitMetInschrijving(String naam, LocalDate datum) {
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     /**
@@ -15,17 +16,19 @@ public class ActiviteitMetInschrijving {
      * @throws DomainException indien de gegeven persoon niet ingeschreven kan worden
      */
     public void schrijfIn(Persoon persoon) {
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     /**
      * Returnt true indien gegeven persoon ingeschreven is voor deze activiteit
      */
     public boolean isIngeschreven(Persoon persoon) {
-        return true;
+        throw new UnsupportedOperationException("Not yet implemented");
+
     }
 
     @Override
     public String toString() {
-        return "";
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 }

@@ -7,9 +7,10 @@ public class Dropping {
     private int minimumLeeftijd;
 
     public Dropping(String naam, LocalDate datum, String startplaats) {
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     public int getMinimumLeeftijd() {
-        return 0;
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 }

@@ -6,12 +6,15 @@ public class Wedstrijd {
     private Sport sport;
 
     public Wedstrijd(String naam, LocalDate datum, Sport sport) {
+        throw new UnsupportedOperationException("Not yet implemented");
 
     }
 
 
     @Override
     public String toString() {
-        return "";
+
+        throw new UnsupportedOperationException("Not yet implemented");
+
     }
 }

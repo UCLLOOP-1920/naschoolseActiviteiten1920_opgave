@@ -9,11 +9,12 @@ public abstract class Sport {
      * @throws DomainException indien invoer niet geldig is
      */
     public Sport(String naam) {
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     @Override
     public String toString() {
-        return "";
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
 }

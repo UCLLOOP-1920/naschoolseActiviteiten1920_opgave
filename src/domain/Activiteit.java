@@ -8,9 +8,11 @@ public class Activiteit {
 
     /**
      * Maak activiteit aan met gegeven naam op gegeven datum
+     *
      * @throws DomainException indien invoer niet geldig is
      */
     public Activiteit(String naam, LocalDate datum) {
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     public String getNaam() {
@@ -23,19 +25,19 @@ public class Activiteit {
 
     @Override
     public String toString() {
-        return "";
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     @Override
     public boolean equals(Object other) {
-        return true;
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     /**
      * Returnt true indien deze activiteit beschikbaar is voor gegeven persoon
      */
     public boolean isBeschikbaarVoorPersoon(Persoon persoon) {
-        return true;
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
 }
