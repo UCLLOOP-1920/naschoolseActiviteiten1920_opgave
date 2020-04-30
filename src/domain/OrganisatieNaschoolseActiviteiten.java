@@ -47,4 +47,21 @@ public class OrganisatieNaschoolseActiviteiten {
     public List<Activiteit> geefActiviteitenVoorPersoonOpDag(Persoon persoon, LocalDate dag) {
         throw new UnsupportedOperationException("Not yet implemented");
     }
+
+    /**
+     * Verwijder activiteiten die plaatsvinden op gegeven dag
+     *
+     * @return Lijst met verwijderde activiteiten
+     */
+    public List<Activiteit> verwijderActiviteitenOpDatum(LocalDate datum) {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
+
+    /**
+     * Geef aantal geregistreerde activiteiten
+     */
+    public int geefAantalActiviteiten(){
+        return activiteiten.size();
+    }
+
 }
